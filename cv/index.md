@@ -32,7 +32,6 @@ permalink: /cv.html
 <section class="section">
   <div class="section-head">
     <div>
-      <div class="eyebrow">EXPERIENCE</div>
       <h2>Professional Experience</h2>
     </div>
   </div>
@@ -73,7 +72,6 @@ permalink: /cv.html
 <section class="section">
   <div class="section-head">
     <div>
-      <div class="eyebrow">EDUCATION</div>
       <h2>Academic Training</h2>
     </div>
   </div>
@@ -101,7 +99,6 @@ permalink: /cv.html
 <section class="section">
   <div class="section-head">
     <div>
-      <div class="eyebrow">SKILLS</div>
       <h2>Skills</h2>
     </div>
   </div>
@@ -134,7 +131,6 @@ permalink: /cv.html
 <section class="section">
   <div class="section-head">
     <div>
-      <div class="eyebrow">SERVICE &amp; HONORS</div>
       <h2>Professional Service and Honors</h2>
     </div>
   </div>

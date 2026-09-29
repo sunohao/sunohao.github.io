@@ -66,7 +66,7 @@ permalink: /cv.html
         <tr>
           <td><strong>2026.09–Present</strong></td>
           <td>PKU–Longgang Joint Laboratory for Advanced Quantum Technology</td>
-          <td>Senior Researcher / Research Lead</td>
+          <td>Senior Research Scientist</td>
         </tr>
         <tr>
           <td><strong>2023.02–2026.08</strong></td>

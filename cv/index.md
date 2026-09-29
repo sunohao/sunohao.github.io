@@ -146,37 +146,6 @@ permalink: /cv.html
   </div>
 </section>
 
-<section class="section">
-  <div class="section-head">
-    <div>
-      <h2>Skills</h2>
-    </div>
-  </div>
-
-  <div class="card" style="overflow:hidden">
-    <table>
-      <tbody>
-        <tr>
-          <td><strong>Languages</strong></td>
-          <td>Chinese (native), English (fluent)</td>
-        </tr>
-        <tr>
-          <td><strong>Coding</strong></td>
-          <td><strong>Python</strong>, C/C++, LaTeX</td>
-        </tr>
-        <tr>
-          <td><strong>Simulation Software</strong></td>
-          <td><strong>TenPy</strong>, <strong>Qiskit</strong>, QuSpin, VASP, Quantum Espresso, COMSOL, QuantumXlab (self-developed)</td>
-        </tr>
-        <tr>
-          <td><strong>Professional Skills</strong></td>
-          <td>Scientific writing, academic correspondence, research presentation, project coordination, mentoring, and collaborative leadership.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
 
 <section class="section">
   <div class="section-head">
@@ -218,3 +187,36 @@ permalink: /cv.html
     <p><strong>2022 Mar</strong> — Magnon band tuning in honeycomb ferromagnets with Dzyaloshinskii–Moriya interaction, APS March Meeting (online), USA.</p>
   </div>
 </section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <h2>Skills</h2>
+    </div>
+  </div>
+
+  <div class="card" style="overflow:hidden">
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Languages</strong></td>
+          <td>Chinese (native), English (fluent)</td>
+        </tr>
+        <tr>
+          <td><strong>Coding</strong></td>
+          <td><strong>Python</strong>, C/C++, LaTeX</td>
+        </tr>
+        <tr>
+          <td><strong>Simulation Software</strong></td>
+          <td><strong>TenPy</strong>, <strong>Qiskit</strong>, QuSpin, VASP, Quantum Espresso, COMSOL, QuantumXlab (self-developed)</td>
+        </tr>
+        <tr>
+          <td><strong>Professional Skills</strong></td>
+          <td>Scientific writing, academic correspondence, research presentation, project coordination, mentoring, and collaborative leadership.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+

@@ -1,0 +1,22 @@
+title: Hao Sun
+tagline: Theoretical physics · Quantum transport · Moiré quantum materials · Quantum science
+url: https://sunohao.github.io
+baseurl: ""
+author:
+  name: Hao Sun
+  email: sunhao_2007@126.com
+  orcid: 0000-0001-6400-7365
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

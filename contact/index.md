@@ -12,6 +12,6 @@ permalink: /contact.html
   </div>
   <div class="card pad">
     <div class="muted">Affiliation</div>
-    <div>PKU–Longgang Joint Laboratory for Quantum Science</div>
+    <div>PKU–Longgang Joint Laboratory for Advanced Quantum Technology</div>
   </div>
 </div>

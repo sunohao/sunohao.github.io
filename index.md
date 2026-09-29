@@ -8,7 +8,7 @@ title: Home
     <h1>Dr. Hao Sun</h1>
     <div class="hero-motto">Think rigorously, innovate boldly, and learn continuously.</div>
     <p class="hero-lead">
-      I study generalized anomalous transport in quantum materials, with a focus on orbital and valley physics, moiré systems, and quantum spins.
+      I study generalized anomalous transport in quantum materials, with a focus on orbital physics, moiré systems, and quantum spins.
     </p>
     <p class="hero-meta">PKU–Longgang Joint Laboratory for Advanced Quantum Technology</p>
     <p class="cta-row">

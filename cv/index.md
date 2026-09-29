@@ -82,7 +82,7 @@ permalink: /cv.html
         <tr>
           <td><strong>2018.06–2023.02</strong></td>
           <td>Nanyang Technological University, Singapore</td>
-          <td>Postdoctoral Researcher</td>
+          <td>Research Fellow</td>
         </tr>
         <tr>
           <td><strong>2016.07–2018.05</strong></td>

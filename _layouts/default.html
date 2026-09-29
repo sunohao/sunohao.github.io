@@ -163,6 +163,58 @@ code{background:#eef2ff;padding:2px 6px;border-radius:6px}
   .pub-main{padding:18px}
 }
 
+.theme-toggle{
+  margin-left:6px;
+  padding:8px 11px;
+  border:1px solid var(--b);
+  border-radius:10px;
+  background:#fff;
+  color:#14203a;
+  font:600 13px/1 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+  cursor:pointer;
+}
+.theme-toggle:hover{background:#f5f7fb}
+html[data-theme="dark"]{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html[data-theme="dark"]{
+  --paper:#0b1020;--ink:#e6edf3;--muted:#9aa4b2;--b:#1a2138
+}
+html[data-theme="dark"] body{background:var(--paper)}
+html[data-theme="dark"] .site-header{background:linear-gradient(180deg,rgba(16,24,40,.85),rgba(16,24,40,.78));border-color:var(--b)}
+html[data-theme="dark"] .nav a{color:#e6edf3}
+html[data-theme="dark"] .nav a:hover{background:rgba(14,165,165,.16)}
+html[data-theme="dark"] .nav a.active{background:var(--acc)}
+html[data-theme="dark"] .hero-visual{background:linear-gradient(145deg,rgba(30,58,138,.16),rgba(14,165,165,.08)),#0f1629}
+html[data-theme="dark"] .visual-label{background:rgba(15,22,41,.78);border-color:#25304d}
+html[data-theme="dark"] .card{background:#0f1629;border-color:var(--b)}
+html[data-theme="dark"] .research-emerging{background:#0f1629}
+html[data-theme="dark"] .btn{background:#0f1629;color:#e6edf3}
+html[data-theme="dark"] .btn.acc{background:var(--acc);color:#fff}
+html[data-theme="dark"] .pub-side{background:#0f1b31}
+html[data-theme="dark"] .pub-note{background:#142348}
+html[data-theme="dark"] thead{background:#0f1b31}
+html[data-theme="dark"] pre{background:#0f1629;color:#e6edf3}
+html[data-theme="dark"] code{background:#0f1b31}
+html[data-theme="dark"] footer.site-footer{border-color:var(--b);color:#9aa4b2}
+html[data-theme="dark"] .theme-toggle{background:#0f1629;color:#e6edf3;border-color:var(--b)}
+html[data-theme="dark"] .theme-toggle:hover{background:#16213b}
+
+html[data-theme="light"]{
+  --paper:#f9fafb;--ink:#0b1020;--muted:#5a6475;--b:#e6e6e6
+}
+html[data-theme="light"] body{
+  background:radial-gradient(1200px 500px at 50% -200px, rgba(30,58,138,.05), transparent 60%),var(--paper)
+}
+html[data-theme="light"] .site-header{
+  background:linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.86));
+  border-color:var(--b)
+}
+html[data-theme="light"] .nav a{color:#14203a}
+html[data-theme="light"] .card{background:#fff;border-color:var(--b)}
+html[data-theme="light"] .btn{background:#fff;color:#111}
+html[data-theme="light"] .btn.acc{background:var(--acc);color:#fff}
+html[data-theme="light"] .theme-toggle{background:#fff;color:#14203a;border-color:var(--b)}
+
 @media(prefers-color-scheme:dark){
   :root{--paper:#0b1020;--ink:#e6edf3;--muted:#9aa4b2;--b:#1a2138}
   body{background:var(--paper)}
@@ -199,6 +251,7 @@ code{background:#eef2ff;padding:2px 6px;border-radius:6px}
       <a href="https://sunohao.github.io/cv.html" class="{% if here contains "/cv" %}active{% endif %}">CV</a>
       <a href="https://sunohao.github.io/contact.html" class="{% if here contains "/contact" %}active{% endif %}">Contact</a>
     </nav>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle light and dark theme">Dark</button>
   </div>
 </header>
 
@@ -215,6 +268,35 @@ code{background:#eef2ff;padding:2px 6px;border-radius:6px}
     <a href="mailto:{{ site.author.email }}">Email</a>
   </div>
 </footer>
+<script>
+(function(){
+  const root = document.documentElement;
+  const btn = document.getElementById("theme-toggle");
+  const saved = localStorage.getItem("theme");
+
+  function systemTheme(){
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+  function apply(theme){
+    root.setAttribute("data-theme", theme);
+    if (btn) btn.textContent = theme === "dark" ? "Light" : "Dark";
+  }
+
+  apply(saved || systemTheme());
+
+  if (btn) {
+    btn.addEventListener("click", function(){
+      const next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      localStorage.setItem("theme", next);
+      apply(next);
+    });
+  }
+
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function(){
+    if (!localStorage.getItem("theme")) apply(systemTheme());
+  });
+})();
+</script>
 <!-- deploy-refresh -->
 </body>
 </html>

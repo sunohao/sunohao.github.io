@@ -8,6 +8,7 @@ permalink: /cv.html
   <h1>Dr. Hao Sun</h1>
   <p class="muted">Condensed-matter theorist working on quantum transport, quantum geometry, moiré materials, and quantum science.</p>
   <p style="margin-top:10px;"><a href="https://scholar.google.com/citations?hl=en&user=YmrbkGIAAAAJ&view_op=list_works" target="_blank" rel="noreferrer"><strong>Google Scholar ↗</strong></a></p>
+  <p style="margin-top:6px;"><a href="https://www.researchgate.net/profile/Hao-Sun-30?ev=hdr_xprf" target="_blank" rel="noreferrer"><strong>ResearchGate ↗</strong></a></p>
 </section>
 
 <div class="grid cols-2" style="margin-top:12px">

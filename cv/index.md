@@ -111,7 +111,7 @@ permalink: /cv.html
       <tbody>
         <tr>
           <td><strong>Languages</strong></td>
-          <td>Strong reading, writing, and speaking competencies in English.</td>
+          <td>Chinese (native), English (fluent)</td>
         </tr>
         <tr>
           <td><strong>Coding</strong></td>

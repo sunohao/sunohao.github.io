@@ -10,6 +10,7 @@ My research spans <strong>condensed-matter theory</strong> and <strong>quantum s
 <div class="grid cols-2" style="margin-top:16px">
 
   <div class="card pad">
+    <div class="research-kicker">CORE DIRECTION</div>
     <h3>Orbital and Valley Transport</h3>
     <p class="muted">
       Theory of <strong>orbital and valley transport</strong>, including <strong>orbital Hall physics</strong>, <strong>orbital magnetic moments</strong>, <strong>nonconserved accumulations</strong>, and <strong>Hanle-type dynamics</strong>.
@@ -17,6 +18,7 @@ My research spans <strong>condensed-matter theory</strong> and <strong>quantum s
   </div>
 
   <div class="card pad">
+    <div class="research-kicker">CORE DIRECTION</div>
     <h3>Moiré and Supermoiré Quantum Materials</h3>
     <p class="muted">
       <strong>Moiré and supermoiré graphene</strong>, with focus on <strong>magnetic Bloch states</strong>, <strong>Hofstadter physics</strong>, <strong>Brown–Zak oscillations</strong>, and <strong>multiscale commensurability</strong>.
@@ -24,6 +26,7 @@ My research spans <strong>condensed-matter theory</strong> and <strong>quantum s
   </div>
 
   <div class="card pad">
+    <div class="research-kicker">BRIDGE</div>
     <h3>Quantum Geometry and Nonequilibrium Responses</h3>
     <p class="muted">
       <strong>Berry curvature</strong>, <strong>quantum geometry</strong>, and <strong>orbital magnetic moments</strong> in electronic, magnetic, optical, and nonequilibrium response.
@@ -31,6 +34,7 @@ My research spans <strong>condensed-matter theory</strong> and <strong>quantum s
   </div>
 
   <div class="card pad">
+    <div class="research-kicker">EMERGING DIRECTION</div>
     <h3>Atomic Many-Body Physics and Neutral-Atom Quantum Science</h3>
     <p class="muted">
       <strong>High-precision atomic many-body theory</strong> for <strong>Rydberg atoms</strong> and <strong>neutral-atom platforms</strong>, using <strong>relativistic coupled-cluster</strong> and <strong>CI+MBPT</strong> methods.

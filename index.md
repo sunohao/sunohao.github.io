@@ -8,7 +8,7 @@ title: Home
     <h1>Dr. Hao Sun</h1>
     <div class="hero-motto">Think rigorously, innovate boldly, and learn continuously.</div>
     <p class="hero-lead">
-      I study generalized anomalous transport in quantum materials, with a focus on orbital physics, moiré systems, and quantum spins.
+      I study generalized anomalous transport in quantum materials, with a focus on orbital physics, moiré systems, and quantum spins. I am also particularly interested in the translation and commercialization of quantum technologies.
     </p>
     <p class="cta-row">
       <a class="btn acc" href="https://sunohao.github.io/research.html">Research</a>

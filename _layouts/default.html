@@ -100,6 +100,27 @@ main{padding:30px 0 64px}
 .research-primary h3{font-size:21px}
 .research-emerging{background:linear-gradient(180deg,#fff,#fbfcfe)}
 .research-kicker{font-size:10px;font-weight:750;letter-spacing:.12em;color:#7a8494;margin-bottom:8px}
+.research-directions{display:grid;gap:20px;margin-top:20px}
+.research-feature{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);overflow:hidden}
+.research-feature-text{padding:24px}
+.research-feature h3{font-size:22px;margin-bottom:8px}
+.research-figure-placeholder{
+  min-height:220px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:4px;
+  padding:22px;
+  border-left:1px dashed var(--b);
+  background:
+    linear-gradient(135deg,rgba(30,58,138,.035),rgba(14,165,165,.035)),
+    repeating-linear-gradient(45deg,transparent,transparent 14px,rgba(30,58,138,.025) 14px,rgba(30,58,138,.025) 15px);
+  color:var(--muted);
+  text-align:center
+}
+.research-figure-placeholder span{font-size:14px;font-weight:700;letter-spacing:.02em}
+.research-figure-placeholder small{font-size:12px}
 .card{border:1px solid var(--b);border-radius:var(--r);background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.04)}
 .card.pad{padding:20px}
 .card.accent{border-left:4px solid var(--acc)}
@@ -148,6 +169,8 @@ code{background:#eef2ff;padding:2px 6px;border-radius:6px}
 
 @media(max-width:860px){
   .hero-split{grid-template-columns:1fr}
+  .research-feature{grid-template-columns:1fr}
+  .research-figure-placeholder{border-left:none;border-top:1px dashed var(--b);min-height:180px}
   .hero-visual{min-height:220px;max-width:520px}
   .research-grid{grid-template-columns:1fr}
 }

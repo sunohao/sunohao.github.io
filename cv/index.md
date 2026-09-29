@@ -17,7 +17,13 @@ permalink: /cv.html
 
   <div class="card pad">
     <h2>Collaboration</h2>
-    <p class="muted">Long-term research collaboration with <strong>Prof. Kostya Novoselov</strong> and international collaborators in quantum materials and condensed-matter theory.</p>
+    <p class="muted">Research collaborations with:</p>
+    <ul class="muted" style="margin-top:10px;">
+      <li>Nanyang Technological University (NTU)</li>
+      <li>Peking University</li>
+      <li>Southeast University</li>
+      <li>Nanjing University of Information Science and Technology</li>
+    </ul>
   </div>
 </div>
 

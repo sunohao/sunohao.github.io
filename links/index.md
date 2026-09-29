@@ -22,7 +22,7 @@ permalink: /links.html
     <p><strong>PKU–Longgang Joint Laboratory for Advanced Quantum Technology</strong></p>
     <p class="muted">PKU–Longgang Advanced Quantum Technology Joint Laboratory</p>
     <p class="muted">Current research and team-building base.</p>
-    <p class="muted"><strong>Address:</strong> 浙江省温州市龙港市数字经济科创产业中心研发大楼5–6层</p>
+    <p class="muted"><strong>Address:</strong> 浙江省温州市龙港市数字经济科创产业中心研发大楼5–6层，325802</p>
   </div>
 </div>
 

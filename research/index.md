@@ -69,7 +69,10 @@ My research spans <strong>condensed-matter theory</strong> and <strong>quantum s
 
 <div class="card pad" style="margin-top:20px">
   <h2>Approach</h2>
-  <p class="muted">
-    I combine <strong>analytical theory</strong> and <strong>numerical modeling</strong>, with emphasis on experimentally accessible signatures.
-  </p>
+  <ul style="margin:10px 0 0 20px;">
+    <li><strong>Tight-binding methods</strong></li>
+    <li><strong>Continuum models</strong></li>
+    <li><strong>Green's functions and many-body perturbation theory</strong></li>
+    <li><strong>Density-functional theory (DFT) calculations</strong></li>
+  </ul>
 </div>

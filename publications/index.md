@@ -16,7 +16,7 @@ permalink: /publications.html
     <div class="pub-main">
       <h3>Pseudomagnetic control of light waves in the electrically tunable photonic crystals with deformation engineering</h3>
       <p class="pub-authors">Z. Qi, <strong>Hao Sun</strong>, G. Hu, X. Song, Y. Sun, W. Zhu, B. Liu, X. Yu, F. M. Peeters, and Y. Cui</p>
-      <p class="pub-meta"><em>Laser &amp; Photonics Reviews</em> <strong>20</strong>(1), e01225 (2026).</p>
+      <p class="pub-meta"><em>Laser &amp; Photonics Reviews</em> <strong>20</strong>(1), e01225 (2026). <span class="pub-note">Equal contribution</span></p>
       <p class="pub-links"><a href="https://doi.org/10.1002/lpor.202501225" target="_blank" rel="noreferrer">DOI ↗</a></p>
     </div>
   </article>

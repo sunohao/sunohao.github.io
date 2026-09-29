@@ -263,8 +263,7 @@ html[data-theme="light"] .theme-toggle{background:#fff;color:#14203a;border-colo
 
 <header class="site-header">
   <div class="wrap h-row">
-    <div class="brand"><a href="https://sunohao.github.io/">{{ site.title }}</a></div>
-    <nav class="nav" aria-label="Main">
+<nav class="nav" aria-label="Main">
       {%- assign here = page.url -%}
       <a href="https://sunohao.github.io/" class="{% if here == "/" %}active{% endif %}">Home</a>
       <a href="https://sunohao.github.io/research.html" class="{% if here contains "/research" %}active{% endif %}">Research</a>

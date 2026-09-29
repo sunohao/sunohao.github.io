@@ -13,6 +13,7 @@ title: Home
     <p class="cta-row">
       <a class="btn acc" href="https://sunohao.github.io/research.html">Research</a>
       <a class="btn" href="https://sunohao.github.io/publications.html">Publications</a>
+      <a class="btn" href="https://sunohao.github.io/cv.html">CV</a>
     </p>
   </div>
 

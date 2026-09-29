@@ -20,9 +20,9 @@ permalink: /links.html
   <div class="card pad">
     <h2>Affiliation</h2>
     <p><strong>PKU–Longgang Joint Laboratory for Advanced Quantum Technology</strong></p>
-    <p class="muted">PKU–Longgang Advanced Quantum Technology Joint Laboratory</p>
+    <p class="muted" style="text-align:left;">Longgang Advanced Quantum Technology Institute</p>
     <p class="muted">Current research and team-building base.</p>
-    <p class="muted"><strong>Address:</strong> 浙江省温州市龙港市数字经济科创产业中心研发大楼5–6层，325802</p>
+    <p class="muted" style="text-align:left;"><strong>Address:</strong> Floors 5–6, R&amp;D Building, Digital Economy Science and Technology Innovation Industrial Center, Longgang, Wenzhou, Zhejiang 325802, China</p>
   </div>
 </div>
 

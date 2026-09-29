@@ -13,7 +13,7 @@ permalink: /team.html
     <h2>Team Leader</h2>
     <p><strong>Dr. Hao Sun</strong></p>
     <p class="muted">Senior Research Scientist</p>
-    <p class="muted">PKU–Longgang Advanced Quantum Technology Joint Laboratory</p>
+    <p class="muted">PKU–Longgang Joint Laboratory for Advanced Quantum Technology</p>
   </div>
 
   <div class="card pad">

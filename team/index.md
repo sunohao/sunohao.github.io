@@ -21,7 +21,7 @@ permalink: /team.html
     <ul style="margin:10px 0 0 20px;">
       <li><strong>Energetic Materials Computation</strong> — thermochemical properties, stability, and quantum-chemical modeling of energetic materials.</li>
       <li><strong>High-Precision Atomic Structure &amp; Neutral-Atom Quantum Computing</strong> — precision atomic many-body calculations, Rydberg interactions, and neutral-atom quantum computing and simulation.</li>
-      <li><strong>Orbitronics</strong> — orbital Hall sensors, orbital transport, and orbital-based magnetic memory devices (MRAM).</li>
+      <li><strong>Orbitronics</strong> — orbital dynamics, orbital Hall sensors, orbital transport, and orbital-based magnetic memory devices (MRAM).</li>
     </ul>
   </div>
 </div>

@@ -13,8 +13,8 @@
   --paper: #f9fafb;
   --ink: #0b1020;
   --muted: #5a6475;
-  --acc: #1e3a8a;
-  --acc-2: #0ea5a5;
+  --acc: #8d1a11;
+  --acc-2: #b24a3f;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -23,7 +23,7 @@ body{
   font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
   color:var(--ink);
   background:
-    radial-gradient(1200px 500px at 50% -200px, rgba(30,58,138,.05), transparent 60%),
+    radial-gradient(1200px 500px at 50% -200px, rgba(141,26,17,.05), transparent 60%),
     var(--paper);
 }
 
@@ -58,7 +58,7 @@ main{padding:30px 0 64px}
 
 .hero-visual{
   position:relative;min-height:290px;border:1px solid var(--b);border-radius:24px;overflow:hidden;
-  background:linear-gradient(145deg,rgba(30,58,138,.06),rgba(14,165,165,.05)),#fff;
+  background:linear-gradient(145deg,rgba(141,26,17,.06),rgba(14,165,165,.05)),#fff;
   box-shadow:0 14px 40px rgba(19,33,68,.06);
 }
 .hero-image{display:flex;align-items:center;justify-content:center;background:#fff}
@@ -66,16 +66,16 @@ main{padding:30px 0 64px}
 .moire-grid{
   position:absolute;inset:-35px;
   background-image:
-    linear-gradient(30deg,rgba(30,58,138,.08) 1px,transparent 1px),
+    linear-gradient(30deg,rgba(141,26,17,.08) 1px,transparent 1px),
     linear-gradient(150deg,rgba(14,165,165,.08) 1px,transparent 1px);
   background-size:28px 28px;
   transform:rotate(4deg);
 }
-.orbit{position:absolute;border:1.5px solid rgba(30,58,138,.34);border-radius:50%}
+.orbit{position:absolute;border:1.5px solid rgba(141,26,17,.34);border-radius:50%}
 .orbit-a{width:170px;height:170px;left:63px;top:58px}
 .orbit-b{width:215px;height:112px;left:40px;top:88px;transform:rotate(33deg)}
 .orbit-c{width:215px;height:112px;left:40px;top:88px;transform:rotate(-33deg);border-color:rgba(14,165,165,.34)}
-.core-dot{position:absolute;width:14px;height:14px;border-radius:50%;left:141px;top:136px;background:var(--acc);box-shadow:0 0 0 9px rgba(30,58,138,.08)}
+.core-dot{position:absolute;width:14px;height:14px;border-radius:50%;left:141px;top:136px;background:var(--acc);box-shadow:0 0 0 9px rgba(141,26,17,.08)}
 .visual-label{position:absolute;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);background:rgba(255,255,255,.78);padding:4px 7px;border-radius:999px;border:1px solid rgba(230,230,230,.8)}
 .label-a{left:24px;top:28px}.label-b{right:22px;top:44px}.label-c{right:30px;bottom:24px}
 
@@ -114,7 +114,7 @@ main{padding:30px 0 64px}
   padding:22px;
   border-left:1px dashed var(--b);
   background:
-    linear-gradient(135deg,rgba(30,58,138,.035),rgba(14,165,165,.035)),
+    linear-gradient(135deg,rgba(141,26,17,.035),rgba(14,165,165,.035)),
     repeating-linear-gradient(45deg,transparent,transparent 14px,rgba(30,58,138,.025) 14px,rgba(30,58,138,.025) 15px);
   color:var(--muted);
   text-align:center
@@ -227,7 +227,7 @@ html[data-theme="light"]{
   --paper:#f9fafb;--ink:#0b1020;--muted:#5a6475;--b:#e6e6e6
 }
 html[data-theme="light"] body{
-  background:radial-gradient(1200px 500px at 50% -200px, rgba(30,58,138,.05), transparent 60%),var(--paper)
+  background:radial-gradient(1200px 500px at 50% -200px, rgba(141,26,17,.05), transparent 60%),var(--paper)
 }
 html[data-theme="light"] .site-header{
   background:linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.86));

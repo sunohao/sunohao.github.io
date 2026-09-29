@@ -32,7 +32,7 @@ title: Home
   </div>
 
   <div class="research-grid">
-    <div class="card pad research-card research-primary accent">
+    <div class="card pad research-card research-primary">
       <div class="research-kicker">CORE DIRECTION</div>
       <h3>Orbital and Valley Transport</h3>
       <p class="muted">Generation, dynamics, accumulation, and detection of orbital and valley degrees of freedom in solids.</p>

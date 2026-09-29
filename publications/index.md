@@ -5,7 +5,6 @@ permalink: /publications.html
 
 <section class="page-intro">
   <div class="eyebrow">SELECTED WORK</div>
-  <h1>Publications</h1>
   <p class="muted">Selected publications representing my main research directions. My name is highlighted in bold.</p>
 </section>
 

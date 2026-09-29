@@ -7,25 +7,76 @@ permalink: /cv.html
   <div class="eyebrow">CURRICULUM VITAE</div>
   <h1>Dr. Hao Sun</h1>
   <p class="muted">Condensed-matter theorist working on quantum transport, quantum geometry, moiré materials, and quantum science.</p>
-  <p style="margin-top:10px;"><a href="https://scholar.google.com/citations?hl=en&user=YmrbkGIAAAAJ&view_op=list_works" target="_blank" rel="noreferrer"><strong>Google Scholar ↗</strong></a></p>
-  <p style="margin-top:6px;"><a href="https://www.researchgate.net/profile/Hao-Sun-30?ev=hdr_xprf" target="_blank" rel="noreferrer"><strong>ResearchGate ↗</strong></a></p>
 </section>
 
-<div class="grid cols-2" style="margin-top:12px">
-  <div class="card pad">
-    <h2>Research Interests</h2>
-    <p class="muted"><strong>Quantum transport</strong>, <strong>quantum geometry and response</strong>, and <strong>low-dimensional quantum materials</strong>.</p>
+<style>
+.cv-profile-grid{
+  display:grid;
+  grid-template-columns:minmax(220px,.78fr) minmax(0,1.22fr);
+  gap:18px;
+  margin-top:12px;
+  align-items:stretch;
+}
+.cv-profile-photo{
+  overflow:hidden;
+  min-height:100%;
+  padding:0;
+}
+.cv-profile-photo img{
+  display:block;
+  width:100%;
+  height:100%;
+  min-height:390px;
+  object-fit:cover;
+  object-position:center 28%;
+}
+.cv-profile-info{
+  display:grid;
+  gap:18px;
+}
+.cv-profile-info .card{height:100%}
+.cv-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:14px;
+}
+.cv-links a{
+  text-decoration:none;
+  font-weight:650;
+}
+@media(max-width:760px){
+  .cv-profile-grid{grid-template-columns:1fr}
+  .cv-profile-photo{max-width:420px}
+  .cv-profile-photo img{min-height:0;aspect-ratio:4/5}
+}
+</style>
+
+<div class="cv-profile-grid">
+  <div class="card cv-profile-photo">
+    <img src="https://avatars.githubusercontent.com/u/35682177?v=4" alt="Portrait of Dr. Hao Sun">
   </div>
 
-  <div class="card pad">
-    <h2>Collaboration</h2>
-    <p class="muted">Research collaborations with:</p>
-    <ul class="muted" style="margin-top:10px;">
-      <li>Nanyang Technological University (NTU)</li>
-      <li>Peking University</li>
-      <li>Southeast University</li>
-      <li>Nanjing University of Information Science and Technology</li>
-    </ul>
+  <div class="cv-profile-info">
+    <div class="card pad">
+      <h2>Research Interests</h2>
+      <p class="muted"><strong>Quantum transport</strong>, <strong>quantum geometry and response</strong>, and <strong>low-dimensional quantum materials</strong>.</p>
+      <div class="cv-links">
+        <a href="https://scholar.google.com/citations?hl=en&user=YmrbkGIAAAAJ&view_op=list_works" target="_blank" rel="noreferrer">Google Scholar ↗</a>
+        <a href="https://www.researchgate.net/profile/Hao-Sun-30?ev=hdr_xprf" target="_blank" rel="noreferrer">ResearchGate ↗</a>
+      </div>
+    </div>
+
+    <div class="card pad">
+      <h2>Collaboration</h2>
+      <p class="muted">Research collaborations with:</p>
+      <ul class="muted" style="margin-top:10px;">
+        <li>Nanyang Technological University (NTU)</li>
+        <li>Peking University</li>
+        <li>Southeast University</li>
+        <li>Nanjing University of Information Science and Technology</li>
+      </ul>
+    </div>
   </div>
 </div>
 

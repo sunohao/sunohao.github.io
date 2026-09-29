@@ -53,7 +53,7 @@ permalink: /cv.html
 
 <div class="cv-profile-grid">
   <div class="card cv-profile-photo">
-    <img src="https://avatars.githubusercontent.com/u/35682177?v=4" alt="Portrait of Dr. Hao Sun">
+    <img src="/assets/Hao_profile.jpg" alt="Portrait of Dr. Hao Sun">
   </div>
 
   <div class="cv-profile-info">

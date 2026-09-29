@@ -5,7 +5,10 @@ title: Home
 <section class="hero hero-split">
   <div class="hero-copy">
     <div class="eyebrow">CONDENSED MATTER · QUANTUM SCIENCE</div>
+    <div class="hero-name-row">
     <h1>Dr. Hao Sun</h1>
+    <div class="hero-motto">Think rigorously, innovate boldly, and learn continuously.</div>
+  </div>
     <p class="hero-lead">
       I study quantum transport and quantum materials, with a focus on orbital and valley physics, moiré systems, and quantum geometry.
     </p>

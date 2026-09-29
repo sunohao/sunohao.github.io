@@ -11,38 +11,6 @@ permalink: /cv.html
   <p style="margin-top:6px;"><a href="https://www.researchgate.net/profile/Hao-Sun-30?ev=hdr_xprf" target="_blank" rel="noreferrer"><strong>ResearchGate ↗</strong></a></p>
 </section>
 
-<section class="section">
-  <div class="section-head">
-    <div>
-      <div class="eyebrow">SKILLS</div>
-      <h2>Skills</h2>
-    </div>
-  </div>
-
-  <div class="card" style="overflow:hidden">
-    <table>
-      <tbody>
-        <tr>
-          <td><strong>Languages</strong></td>
-          <td>Strong reading, writing, and speaking competencies in English.</td>
-        </tr>
-        <tr>
-          <td><strong>Coding</strong></td>
-          <td><strong>Python</strong>, C/C++, LaTeX</td>
-        </tr>
-        <tr>
-          <td><strong>Simulation Software</strong></td>
-          <td><strong>TenPy</strong>, <strong>Qiskit</strong>, QuSpin, VASP, Quantum Espresso, COMSOL, QuantumXlab (self-developed)</td>
-        </tr>
-        <tr>
-          <td><strong>Professional Skills</strong></td>
-          <td>Scientific writing, academic correspondence, research presentation, project coordination, mentoring, and collaborative leadership.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
 <div class="grid cols-2" style="margin-top:12px">
   <div class="card pad">
     <h2>Research Interests</h2>
@@ -60,6 +28,47 @@ permalink: /cv.html
     </ul>
   </div>
 </div>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">EXPERIENCE</div>
+      <h2>Professional Experience</h2>
+    </div>
+  </div>
+
+  <div class="card" style="overflow:hidden">
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>2026.09–Present</strong></td>
+          <td>PKU–Longgang Joint Laboratory for Advanced Quantum Technology</td>
+          <td>Senior Research Scientist</td>
+        </tr>
+        <tr>
+          <td><strong>2023.02–2026.08</strong></td>
+          <td>I-FIM, National University of Singapore, Singapore</td>
+          <td>Senior Research Fellow</td>
+        </tr>
+        <tr>
+          <td><strong>2021.06–2023.02</strong></td>
+          <td>SPMS, Nanyang Technological University, Singapore</td>
+          <td>Research Fellow</td>
+        </tr>
+        <tr>
+          <td><strong>2018.06–2021.06</strong></td>
+          <td>School of EEE, Nanyang Technological University, Singapore</td>
+          <td>Research Fellow</td>
+        </tr>
+        <tr>
+          <td><strong>2016.07–2018.05</strong></td>
+          <td>Shanghai Lianhe Financial Services Co., Ltd.</td>
+          <td>Financial Analyst</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
 
 <section class="section">
   <div class="section-head">
@@ -92,8 +101,8 @@ permalink: /cv.html
 <section class="section">
   <div class="section-head">
     <div>
-      <div class="eyebrow">EXPERIENCE</div>
-      <h2>Professional Experience</h2>
+      <div class="eyebrow">SKILLS</div>
+      <h2>Skills</h2>
     </div>
   </div>
 
@@ -101,29 +110,26 @@ permalink: /cv.html
     <table>
       <tbody>
         <tr>
-          <td><strong>2026.09–Present</strong></td>
-          <td>PKU–Longgang Joint Laboratory for Advanced Quantum Technology</td>
-          <td>Senior Research Scientist</td>
+          <td><strong>Languages</strong></td>
+          <td>Strong reading, writing, and speaking competencies in English.</td>
         </tr>
         <tr>
-          <td><strong>2023.02–2026.08</strong></td>
-          <td>National University of Singapore</td>
-          <td>Senior Research Fellow</td>
+          <td><strong>Coding</strong></td>
+          <td><strong>Python</strong>, C/C++, LaTeX</td>
         </tr>
         <tr>
-          <td><strong>2018.06–2023.02</strong></td>
-          <td>Nanyang Technological University, Singapore</td>
-          <td>Research Fellow</td>
+          <td><strong>Simulation Software</strong></td>
+          <td><strong>TenPy</strong>, <strong>Qiskit</strong>, QuSpin, VASP, Quantum Espresso, COMSOL, QuantumXlab (self-developed)</td>
         </tr>
         <tr>
-          <td><strong>2016.07–2018.05</strong></td>
-          <td>Shanghai Lianhe Financial Services Co., Ltd.</td>
-          <td>Financial Analyst</td>
+          <td><strong>Professional Skills</strong></td>
+          <td>Scientific writing, academic correspondence, research presentation, project coordination, mentoring, and collaborative leadership.</td>
         </tr>
       </tbody>
     </table>
   </div>
 </section>
+
 
 <section class="section">
   <div class="section-head">
@@ -135,7 +141,7 @@ permalink: /cv.html
 
   <div class="grid cols-2">
     <div class="card pad">
-      <h3>Awards and Fundings</h3>
+      <h3>Awards and Funding</h3>
       <p><strong>2025</strong> — Selected for the <strong>National High-Level Young Talent Program (China)</strong>.</p>
       <p><strong>2014</strong> — <strong>Chinese Government Scholarship</strong> (CSC project).</p>
       <p><strong>2007</strong> — <strong>Jilin Provincial Government Scholarship</strong> for excellent undergraduate students.</p>

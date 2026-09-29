@@ -91,7 +91,7 @@ permalink: /cv.html
       <tbody>
         <tr>
           <td><strong>2026.09–Present</strong></td>
-          <td>PKU–Longgang Joint Laboratory for Advanced Quantum Technology</td>
+          <td>PKU–Longgang Advanced Quantum Technology Joint Laboratory</td>
           <td>Senior Research Scientist</td>
         </tr>
         <tr>

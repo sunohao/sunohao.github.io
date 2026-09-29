@@ -11,6 +11,38 @@ permalink: /cv.html
   <p style="margin-top:6px;"><a href="https://www.researchgate.net/profile/Hao-Sun-30?ev=hdr_xprf" target="_blank" rel="noreferrer"><strong>ResearchGate ↗</strong></a></p>
 </section>
 
+<section class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">SKILLS</div>
+      <h2>Skills</h2>
+    </div>
+  </div>
+
+  <div class="card" style="overflow:hidden">
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Languages</strong></td>
+          <td>Strong reading, writing, and speaking competencies in English.</td>
+        </tr>
+        <tr>
+          <td><strong>Coding</strong></td>
+          <td><strong>Python</strong>, C/C++, LaTeX</td>
+        </tr>
+        <tr>
+          <td><strong>Simulation Software</strong></td>
+          <td><strong>TenPy</strong>, <strong>Qiskit</strong>, QuSpin, VASP, Quantum Espresso, COMSOL, QuantumXlab (self-developed)</td>
+        </tr>
+        <tr>
+          <td><strong>Professional Skills</strong></td>
+          <td>Scientific writing, academic correspondence, research presentation, project coordination, mentoring, and collaborative leadership.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
 <div class="grid cols-2" style="margin-top:12px">
   <div class="card pad">
     <h2>Research Interests</h2>
@@ -41,19 +73,16 @@ permalink: /cv.html
     <table>
       <tbody>
         <tr>
-          <td><strong>2006.08–2010.07</strong></td>
-          <td>Changchun University, School of Electronic Information Engineering</td>
-          <td>Bachelor's degree</td>
-        </tr>
-        <tr>
           <td><strong>2010.09–2016.06</strong></td>
-          <td>University of Science and Technology of China, School of Physical Sciences</td>
-          <td>Integrated Master's–PhD training</td>
+          <td><strong>Ph.D.</strong>, University of Science and Technology of China, China<br><span class="muted">Condensed Matter Physics</span></td>
         </tr>
         <tr>
           <td><strong>2014.09–2015.09</strong></td>
-          <td>University of Pennsylvania, Department of Chemistry</td>
-          <td>Joint training</td>
+          <td><strong>Joint Ph.D. Student</strong>, University of Pennsylvania, United States<br><span class="muted">Computational Physical Chemistry</span></td>
+        </tr>
+        <tr>
+          <td><strong>2006.08–2010.07</strong></td>
+          <td><strong>Bachelor</strong>, Changchun University, China<br><span class="muted">Electrical Engineering and Automation</span></td>
         </tr>
       </tbody>
     </table>
@@ -93,5 +122,47 @@ permalink: /cv.html
         </tr>
       </tbody>
     </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">SERVICE &amp; HONORS</div>
+      <h2>Professional Service and Honors</h2>
+    </div>
+  </div>
+
+  <div class="grid cols-2">
+    <div class="card pad">
+      <h3>Awards and Fundings</h3>
+      <p><strong>2025</strong> — Selected for the <strong>National High-Level Young Talent Program (China)</strong>.</p>
+      <p><strong>2014</strong> — <strong>Chinese Government Scholarship</strong> (CSC project).</p>
+      <p><strong>2007</strong> — <strong>Jilin Provincial Government Scholarship</strong> for excellent undergraduate students.</p>
+    </div>
+
+    <div class="card pad">
+      <h3>Reviewer for Academic Journals</h3>
+      <p class="muted">Independent reviewer since 2024 for journals including:</p>
+      <p><strong>Physical Review Letters</strong><br>
+      <strong>Communications Physics</strong><br>
+      <strong>Physical Review B</strong><br>
+      <strong>Physical Review Materials</strong><br>
+      <strong>Optics Express</strong><br>
+      <strong>Journal of Applied Physics</strong></p>
+      <p class="muted">Topics include <strong>orbital magnetism</strong>, <strong>anomalous transport</strong>, <strong>moiré systems</strong>, and <strong>nonlinear optical phenomena</strong>.</p>
+    </div>
+  </div>
+
+  <div class="card pad" style="margin-top:18px;">
+    <h3>Invited Talks (Selected)</h3>
+    <p><strong>2025 Mar</strong> — <strong>Non-conserved Density Accumulation of Orbital Magnetic Moment</strong>, Department of Physics, Zhejiang Sci-Tech University, Hangzhou, China.</p>
+    <p><strong>2025 Apr</strong> — <strong>Theory of Orbital Hanle Magnetoresistance in 2D Materials</strong>, Department of Physics, Zhejiang University, Hangzhou, China.</p>
+  </div>
+
+  <div class="card pad" style="margin-top:18px;">
+    <h3>Contributed Talks / Oral Presentations (Selected)</h3>
+    <p><strong>2021 Mar</strong> — π-flux Dirac triplon and thermal Hall effect in the Shastry–Sutherland model, APS March Meeting (online), USA.</p>
+    <p><strong>2022 Mar</strong> — Magnon band tuning in honeycomb ferromagnets with Dzyaloshinskii–Moriya interaction, APS March Meeting (online), USA.</p>
   </div>
 </section>

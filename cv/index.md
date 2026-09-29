@@ -5,7 +5,6 @@ permalink: /cv.html
 
 <section class="page-intro">
   <div class="eyebrow">CURRICULUM VITAE</div>
-  <h1>Dr. Hao Sun</h1>
   <p class="muted">Condensed-matter theorist working on quantum transport, quantum geometry, moiré materials, and quantum science.</p>
 </section>
 

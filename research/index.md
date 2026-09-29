@@ -4,7 +4,7 @@ permalink: /research.html
 ---
 
 <p class="muted" style="max-width:850px;">
-My research spans **condensed-matter theory** and **quantum science**, with an emphasis on experimentally relevant transport, geometry, and many-body phenomena.
+My research spans <strong>condensed-matter theory</strong> and <strong>quantum science</strong>, with an emphasis on experimentally relevant transport, geometry, and many-body phenomena.
 </p>
 
 <div class="grid cols-2" style="margin-top:16px">
@@ -12,28 +12,28 @@ My research spans **condensed-matter theory** and **quantum science**, with an e
   <div class="card pad">
     <h3>Orbital and Valley Transport</h3>
     <p class="muted">
-      Theory of **orbital and valley transport**, including **orbital Hall physics**, **orbital magnetic moments**, **nonconserved accumulations**, and **Hanle-type dynamics**.
+      Theory of <strong>orbital and valley transport</strong>, including <strong>orbital Hall physics</strong>, <strong>orbital magnetic moments</strong>, <strong>nonconserved accumulations</strong>, and <strong>Hanle-type dynamics</strong>.
     </p>
   </div>
 
   <div class="card pad">
     <h3>Moiré and Supermoiré Quantum Materials</h3>
     <p class="muted">
-      **Moiré and supermoiré graphene**, with focus on **magnetic Bloch states**, **Hofstadter physics**, **Brown–Zak oscillations**, and **multiscale commensurability**.
+      <strong>Moiré and supermoiré graphene</strong>, with focus on <strong>magnetic Bloch states</strong>, <strong>Hofstadter physics</strong>, <strong>Brown–Zak oscillations</strong>, and <strong>multiscale commensurability</strong>.
     </p>
   </div>
 
   <div class="card pad">
     <h3>Quantum Geometry and Nonequilibrium Responses</h3>
     <p class="muted">
-      **Berry curvature**, **quantum geometry**, and **orbital magnetic moments** in electronic, magnetic, optical, and nonequilibrium response.
+      <strong>Berry curvature</strong>, <strong>quantum geometry</strong>, and <strong>orbital magnetic moments</strong> in electronic, magnetic, optical, and nonequilibrium response.
     </p>
   </div>
 
   <div class="card pad">
     <h3>Atomic Many-Body Physics and Neutral-Atom Quantum Science</h3>
     <p class="muted">
-      **High-precision atomic many-body theory** for **Rydberg atoms** and **neutral-atom platforms**, using **relativistic coupled-cluster** and **CI+MBPT** methods.
+      <strong>High-precision atomic many-body theory</strong> for <strong>Rydberg atoms</strong> and <strong>neutral-atom platforms</strong>, using <strong>relativistic coupled-cluster</strong> and <strong>CI+MBPT</strong> methods.
     </p>
   </div>
 
@@ -42,6 +42,6 @@ My research spans **condensed-matter theory** and **quantum science**, with an e
 <div class="card pad" style="margin-top:16px">
   <h2>Approach</h2>
   <p class="muted">
-    I combine **analytical theory** and **numerical modeling**, with emphasis on experimentally accessible signatures.
+    I combine <strong>analytical theory</strong> and <strong>numerical modeling</strong>, with emphasis on experimentally accessible signatures.
   </p>
 </div>

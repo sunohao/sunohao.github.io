@@ -9,7 +9,7 @@ title: Home
     <p class="hero-lead">
       I study quantum transport and quantum materials, with a focus on orbital and valley physics, moiré systems, and quantum geometry.
     </p>
-    <p class="hero-meta">PKU–Longgang Joint Laboratory for Quantum Science</p>
+    <p class="hero-meta">PKU–Longgang Joint Laboratory for Advanced Quantum Technology</p>
     <p class="cta-row">
       <a class="btn acc" href="https://sunohao.github.io/research.html">Research</a>
       <a class="btn" href="https://sunohao.github.io/publications.html">Publications</a>

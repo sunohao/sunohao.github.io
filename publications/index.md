@@ -12,6 +12,16 @@ permalink: /publications.html
 <div class="pub-list">
 
   <article class="card pub-item">
+    <div class="pub-side"><span>2026</span></div>
+    <div class="pub-main">
+      <h3>Pseudomagnetic control of light waves in the electrically tunable photonic crystals with deformation engineering</h3>
+      <p class="pub-authors">Z. Qi, <strong>Hao Sun</strong>, G. Hu, X. Song, Y. Sun, W. Zhu, B. Liu, X. Yu, F. M. Peeters, and Y. Cui</p>
+      <p class="pub-meta"><em>Laser &amp; Photonics Reviews</em> <strong>20</strong>(1), e01225 (2026).</p>
+      <p class="pub-links"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YmrbkGIAAAAJ&sortby=pubdate&citation_for_view=YmrbkGIAAAAJ:TFP_iSt0sucC" target="_blank" rel="noreferrer">Google Scholar ↗</a></p>
+    </div>
+  </article>
+
+  <article class="card pub-item">
     <div class="pub-side"><span>2025</span></div>
     <div class="pub-main">
       <h3>Orbital magnetic moment dynamics and Hanle magnetoresistance in multilayered two-dimensional materials</h3>

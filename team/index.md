@@ -19,11 +19,9 @@ permalink: /team.html
   <div class="card pad">
     <h2>Research Areas</h2>
     <ul style="margin:10px 0 0 20px;">
-      <li>Orbital transport and generalized anomalous transport</li>
-      <li>Moiré and supermoiré quantum materials</li>
-      <li>Quantum spins and magnetic systems</li>
-      <li>Atomic many-body physics and neutral-atom quantum science</li>
-      <li>Quantum technology translation and commercialization</li>
+      <li><strong>Energetic Materials Computation</strong> — thermochemical properties, stability, and quantum-chemical modeling of energetic materials.</li>
+      <li><strong>High-Precision Atomic Structure &amp; Neutral-Atom Quantum Computing</strong> — precision atomic many-body calculations, Rydberg interactions, and neutral-atom quantum computing and simulation.</li>
+      <li><strong>Orbitronics</strong> — orbital Hall sensors, orbital transport, and orbital-based memory concepts including MRAM.</li>
     </ul>
   </div>
 </div>

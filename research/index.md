@@ -43,9 +43,8 @@ My research spans <strong>condensed-matter theory</strong> and <strong>quantum s
         <strong>Berry curvature</strong>, <strong>quantum geometry</strong>, and <strong>orbital magnetic moments</strong> in electronic, magnetic, optical, and nonequilibrium response.
       </p>
     </div>
-    <div class="research-figure-placeholder">
-      <span>Representative figure</span>
-      <small>Quantum geometry / response</small>
+    <div class="research-figure">
+      <img src="/assets/research/research3.webp" alt="Representative figure for quantum geometry">
     </div>
   </article>
 
@@ -57,9 +56,8 @@ My research spans <strong>condensed-matter theory</strong> and <strong>quantum s
         <strong>High-precision atomic many-body theory</strong> for <strong>Rydberg atoms</strong> and <strong>neutral-atom platforms</strong>, using <strong>relativistic coupled-cluster</strong> and <strong>CI+MBPT</strong> methods.
       </p>
     </div>
-    <div class="research-figure-placeholder">
-      <span>Representative figure</span>
-      <small>Atomic many-body / neutral atoms</small>
+    <div class="research-figure">
+      <img src="/assets/research/research4.webp" alt="Representative figure for Rydberg blockade and neutral-atom quantum science">
     </div>
   </article>
 

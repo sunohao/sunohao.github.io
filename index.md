@@ -67,9 +67,10 @@ title: Home
   </div>
   <div class="card">
     <ul class="news">
-      <li><span>Developing theory for supermoiré graphene and multiscale magnetic commensurability.</span><time>2026</time></li>
-      <li><span>Expanding into high-precision atomic many-body calculations and neutral-atom quantum science.</span><time>2026</time></li>
-      <li><span>Published work on orbital magnetic-moment dynamics and nonconserved density accumulation in orbital Hall transport.</span><time>2025</time></li>
+      <li><span><strong>Laser &amp; Photonics Reviews</strong> — Pseudomagnetic control of light waves in electrically tunable photonic crystals with deformation engineering, <strong>20</strong>(1), e01225.</span><time>2026</time></li>
+      <li><span><strong>Physical Review B</strong> — Orbital magnetic moment dynamics and Hanle magnetoresistance in multilayered two-dimensional materials, <strong>111</strong>, L180408.</span><time>2025</time></li>
+      <li><span><strong>Physical Review B</strong> — Nonconserved density accumulations in orbital Hall transport, <strong>111</strong>, 075432.</span><time>2025</time></li>
+      <li><span><strong>Physical Review Letters</strong> — Nonconservation of valley density and implications for the valley Hall effect, <strong>132</strong>, 106301.</span><time>2024</time></li>
     </ul>
   </div>
 </section>

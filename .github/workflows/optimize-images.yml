@@ -1,4 +1,5 @@
 name: Optimize website images
+# rerun for updated homepage image
 
 on:
   push:

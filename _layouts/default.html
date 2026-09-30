@@ -51,7 +51,7 @@ main{padding:30px 0 64px}
 .eyebrow{font-size:16px;font-weight:700;letter-spacing:.08em;color:var(--acc);text-transform:uppercase}
 
 .hero{padding:56px 0 40px;border-bottom:1px solid var(--b)}
-.hero-split{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(280px,.75fr);gap:54px;align-items:center}
+.hero-split{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(320px,.85fr);gap:46px;align-items:center}
 .hero h1{font-size:clamp(34px,4.2vw,44px);line-height:1.12;letter-spacing:-.025em;margin:10px 0 0}
 .hero-motto{font-size:15px;line-height:1.45;font-style:italic;color:var(--acc);margin-top:8px;max-width:620px}
 .hero-lead{font-size:18px;line-height:1.55;max-width:760px;margin-top:16px;letter-spacing:-.005em}
@@ -59,12 +59,12 @@ main{padding:30px 0 64px}
 .cta-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
 
 .hero-visual{
-  position:relative;min-height:290px;border:1px solid var(--b);border-radius:24px;overflow:hidden;
+  position:relative;min-height:320px;border:1px solid var(--b);border-radius:24px;overflow:hidden;
   background:linear-gradient(145deg,rgba(141,26,17,.06),rgba(14,165,165,.05)),#fff;
   box-shadow:0 14px 40px rgba(19,33,68,.06);
 }
 .hero-image{display:flex;align-items:center;justify-content:center;background:#fff}
-.hero-image img{display:block;width:100%;height:100%;min-height:290px;object-fit:cover}
+.hero-image img{display:block;width:100%;height:auto;object-fit:contain;object-position:center}
 .moire-grid{
   position:absolute;inset:-35px;
   background-image:

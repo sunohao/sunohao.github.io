@@ -1,0 +1,39 @@
+name: Convert research image
+
+on:
+  push:
+    paths:
+      - ".github/workflows/convert-research-image.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - name: Convert research1.jpg to WebP
+        run: |
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          src = Path("assets/research/research1.jpg")
+          dst = Path("assets/research/research1.webp")
+          with Image.open(src) as im:
+              im = im.convert("RGB")
+              im.save(dst, "WEBP", quality=86, method=6)
+              print(f"{src}: {src.stat().st_size} bytes -> {dst}: {dst.stat().st_size} bytes; size={im.size}")
+          src.unlink()
+          PY
+      - name: Commit converted image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets/research
+          git commit -m "Convert research figure to WebP"
+          git push

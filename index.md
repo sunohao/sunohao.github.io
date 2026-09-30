@@ -35,28 +35,24 @@ title: Home
     <div class="card pad research-card research-primary">
       <div class="research-kicker">CORE DIRECTION</div>
       <h3>Orbital and Valley Transport</h3>
-      <p class="muted">Generation, dynamics, accumulation, and detection of orbital and valley degrees of freedom in solids.</p>
       <div class="direction-eq">\( \dot{\mathbf r}=\frac{1}{\hbar}\nabla_{\mathbf k}\varepsilon_n(\mathbf k)-\dot{\mathbf k}\times\mathbf\Omega_n(\mathbf k) \)</div>
     </div>
 
     <div class="card pad research-card research-primary">
       <div class="research-kicker">CORE DIRECTION</div>
       <h3>Moiré and Supermoiré Quantum Materials</h3>
-      <p class="muted">Reconstructed bands, magnetic Bloch states, Hofstadter physics, and interaction-driven phases in multiscale two-dimensional systems.</p>
       <div class="direction-eq">\( \frac{n}{n_0}=t\,\frac{\Phi}{\Phi_0}+s \)</div>
     </div>
 
     <div class="card pad research-card">
       <div class="research-kicker">CONNECTING THEME</div>
       <h3>Quantum Geometry and Nonequilibrium Responses</h3>
-      <p class="muted">Berry curvature, orbital moments, symmetry, and geometric contributions to transport, magnetic, optical, and thermoelectric response.</p>
       <div class="direction-eq">\( Q_{ij}=g_{ij}-\frac{i}{2}\,\Omega_{ij},\quad g_{ij}=\operatorname{Re}Q_{ij},\quad \Omega_{ij}=-2\operatorname{Im}Q_{ij} \)</div>
     </div>
 
     <div class="card pad research-card research-emerging">
       <div class="research-kicker">EMERGING DIRECTION</div>
       <h3>Atomic Many-Body Physics and Neutral-Atom Quantum Science</h3>
-      <p class="muted">High-precision atomic structure, Rydberg interactions, and many-body theory for neutral-atom quantum platforms.</p>
       <div class="direction-eq">\( H=\sum_i\!\left(\frac{\Omega_i}{2}\sigma_i^x-\Delta_i n_i\right)+\sum_{i<j}\frac{C_6}{R_{ij}^6}\,n_i n_j \)</div>
     </div>
   </div>

@@ -17,9 +17,8 @@ My research spans <strong>condensed-matter theory</strong> and <strong>quantum s
         Theory of <strong>orbital and valley transport</strong>, including <strong>orbital Hall physics</strong>, <strong>orbital magnetic moments</strong>, <strong>nonconserved accumulations</strong>, and <strong>Hanle-type dynamics</strong>.
       </p>
     </div>
-    <div class="research-figure-placeholder">
-      <span>Representative figure</span>
-      <small>Orbital / valley transport</small>
+    <div class="research-figure">
+      <img src="/assets/research/research1.webp" alt="Representative figure for orbital and valley transport">
     </div>
   </article>
 

@@ -34,26 +34,26 @@ title: Home
   <div class="research-grid">
     <div class="card pad research-card research-primary">
       <div class="research-kicker">CORE DIRECTION</div>
-      <h3>Orbital and Valley Transport</h3>
-      <p class="muted">Generation, dynamics, accumulation, and detection of orbital and valley degrees of freedom in solids.</p>
+      <h3>Anomalous Transport</h3>
+      <div class="direction-eq">\( \displaystyle \dot{\mathbf r}=\frac{1}{\hbar}\nabla_{\mathbf k}\varepsilon_n(\mathbf k)-\dot{\mathbf k}\times\mathbf\Omega_n(\mathbf k) \)</div>
     </div>
 
     <div class="card pad research-card research-primary">
       <div class="research-kicker">CORE DIRECTION</div>
-      <h3>Moiré and Supermoiré Quantum Materials</h3>
-      <p class="muted">Reconstructed bands, magnetic Bloch states, Hofstadter physics, and interaction-driven phases in multiscale two-dimensional systems.</p>
+      <h3>Moiré Quantum Materials</h3>
+      <div class="direction-eq">\( \displaystyle \frac{n}{n_0}=t\,\frac{\Phi}{\Phi_0}+s \)</div>
     </div>
 
     <div class="card pad research-card">
       <div class="research-kicker">CONNECTING THEME</div>
-      <h3>Quantum Geometry and Nonequilibrium Responses</h3>
-      <p class="muted">Berry curvature, orbital moments, symmetry, and geometric contributions to transport, magnetic, optical, and thermoelectric response.</p>
+      <h3>Quantum Geometry</h3>
+      <div class="direction-eq">\( \displaystyle Q_{ij}=g_{ij}-\frac{i}{2}\Omega_{ij},\; g_{ij}=\operatorname{Re}Q_{ij},\; \Omega_{ij}=-2\operatorname{Im}Q_{ij} \)</div>
     </div>
 
     <div class="card pad research-card research-emerging">
       <div class="research-kicker">EMERGING DIRECTION</div>
-      <h3>Atomic Many-Body Physics and Neutral-Atom Quantum Science</h3>
-      <p class="muted">High-precision atomic structure, Rydberg interactions, and many-body theory for neutral-atom quantum platforms.</p>
+      <h3>Rydberg Blockade Model</h3>
+      <div class="direction-eq">\( \displaystyle H=\sum_i\!\left(\frac{\Omega_i}{2}\sigma_i^x-\Delta_i n_i\right)+\sum_{i<j}\frac{C_6}{R_{ij}^6}\,n_i n_j \)</div>
     </div>
   </div>
 </section>
@@ -67,9 +67,10 @@ title: Home
   </div>
   <div class="card">
     <ul class="news">
-      <li><span>Developing theory for supermoiré graphene and multiscale magnetic commensurability.</span><time>2026</time></li>
-      <li><span>Expanding into high-precision atomic many-body calculations and neutral-atom quantum science.</span><time>2026</time></li>
-      <li><span>Published work on orbital magnetic-moment dynamics and nonconserved density accumulation in orbital Hall transport.</span><time>2025</time></li>
+      <li><span>Our recent paper, <em>“Pseudomagnetic control of light waves in electrically tunable photonic crystals with deformation engineering”</em>, was published in <strong>Laser &amp; Photonics Reviews</strong> <strong>20</strong>(1), e01225.</span><time>2026</time></li>
+      <li><span>Our paper, <em>“Orbital magnetic moment dynamics and Hanle magnetoresistance in multilayered two-dimensional materials”</em>, was published in <strong>Physical Review B</strong> <strong>111</strong>, L180408.</span><time>2025</time></li>
+      <li><span>Our paper, <em>“Nonconserved density accumulations in orbital Hall transport”</em>, was published in <strong>Physical Review B</strong> <strong>111</strong>, 075432.</span><time>2025</time></li>
+      <li><span>Our paper, <em>“Nonconservation of valley density and implications for the valley Hall effect”</em>, was published in <strong>Physical Review Letters</strong> <strong>132</strong>, 106301.</span><time>2024</time></li>
     </ul>
   </div>
 </section>

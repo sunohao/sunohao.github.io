@@ -1,4 +1,5 @@
 name: Optimize website images
+# rerun for updated homepage image
 
 on:
   push:
@@ -66,8 +67,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/home/home.webp assets/profile/Hao_profile.webp index.md cv/index.md
-          git add -u assets/home/home.png assets/profile/Hao_profile.jpg
+          git add -A assets/home index.md
+          if [ -f assets/profile/Hao_profile.webp ]; then git add assets/profile/Hao_profile.webp cv/index.md; fi
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

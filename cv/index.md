@@ -53,7 +53,7 @@ permalink: /cv.html
 
 <div class="cv-profile-grid">
   <div class="card cv-profile-photo">
-    <img src="/assets/Hao_profile.jpg" alt="Portrait of Dr. Hao Sun">
+    <img src="/assets/profile/Hao_profile.jpg" alt="Portrait of Dr. Hao Sun">
   </div>
 
   <div class="cv-profile-info">

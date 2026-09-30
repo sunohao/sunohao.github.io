@@ -17,13 +17,13 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pillow
-      - name: Convert research1.jpg to WebP
+      - name: Convert research2.jpg to WebP
         run: |
           python - <<'PY'
           from PIL import Image
           from pathlib import Path
-          src = Path("assets/research/research1.jpg")
-          dst = Path("assets/research/research1.webp")
+          src = Path("assets/research/research2.jpg")
+          dst = Path("assets/research/research2.webp")
           with Image.open(src) as im:
               im = im.convert("RGB")
               im.save(dst, "WEBP", quality=86, method=6)

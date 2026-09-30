@@ -47,7 +47,7 @@ title: Home
     <div class="card pad research-card">
       <div class="research-kicker">CONNECTING THEME</div>
       <h3>Quantum Geometry</h3>
-      <div class="direction-eq">\( \displaystyle Q_{ij}=g_{ij}-\frac{i}{2}\,\Omega_{ij},\quad g_{ij}=\operatorname{Re}Q_{ij},\quad \Omega_{ij}=-2\operatorname{Im}Q_{ij} \)</div>
+      <div class="direction-eq">\( \displaystyle Q_{ij}=g_{ij}-\frac{i}{2}\Omega_{ij},\; g_{ij}=\operatorname{Re}Q_{ij},\; \Omega_{ij}=-2\operatorname{Im}Q_{ij} \)</div>
     </div>
 
     <div class="card pad research-card research-emerging">

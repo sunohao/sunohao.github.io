@@ -18,7 +18,7 @@ title: Home
   </div>
 
   <div class="hero-visual hero-image" aria-hidden="true">
-    <img src="/assets/home/home.png" alt="">
+    <img src="/assets/home/home.webp" alt="">
   </div>
 </section>
 

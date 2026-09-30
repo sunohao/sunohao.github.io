@@ -1,0 +1,76 @@
+name: Optimize website images
+
+on:
+  push:
+    paths:
+      - ".github/workflows/optimize-images.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: python -m pip install --quiet pillow
+
+      - name: Convert homepage and profile images to WebP
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+
+          jobs = [
+              (Path("assets/home/home.png"), Path("assets/home/home.webp"), 1600, 84),
+              (Path("assets/profile/Hao_profile.jpg"), Path("assets/profile/Hao_profile.webp"), 1200, 85),
+          ]
+
+          for src, dst, max_width, quality in jobs:
+              if not src.exists():
+                  print(f"Skip missing {src}")
+                  continue
+              with Image.open(src) as im:
+                  im = im.convert("RGB")
+                  if im.width > max_width:
+                      h = round(im.height * max_width / im.width)
+                      im = im.resize((max_width, h), Image.Resampling.LANCZOS)
+                  dst.parent.mkdir(parents=True, exist_ok=True)
+                  im.save(dst, "WEBP", quality=quality, method=6)
+                  print(f"{src}: {src.stat().st_size} bytes -> {dst}: {dst.stat().st_size} bytes; {im.size}")
+
+          index = Path("index.md")
+          if index.exists():
+              s=index.read_text()
+              s=s.replace("/assets/home/home.png", "/assets/home/home.webp")
+              index.write_text(s)
+
+          cv = Path("cv/index.md")
+          if cv.exists():
+              s=cv.read_text()
+              s=s.replace("/assets/profile/Hao_profile.jpg", "/assets/profile/Hao_profile.webp")
+              cv.write_text(s)
+
+          for src, _, _, _ in jobs:
+              if src.exists():
+                  src.unlink()
+          PY
+
+      - name: Commit optimized images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/home/home.webp assets/profile/Hao_profile.webp index.md cv/index.md
+          git add -u assets/home/home.png assets/profile/Hao_profile.jpg
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Optimize homepage and profile images as WebP"
+            git push
+          fi

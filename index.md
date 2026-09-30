@@ -52,7 +52,7 @@ title: Home
 
     <div class="card pad research-card research-emerging">
       <div class="research-kicker">EMERGING DIRECTION</div>
-      <h3>Neutral-Atom Rydberg Blockade Model</h3>
+      <h3>Rydberg Blockade Model</h3>
       <div class="direction-eq">\( \displaystyle H=\sum_i\!\left(\frac{\Omega_i}{2}\sigma_i^x-\Delta_i n_i\right)+\sum_{i<j}\frac{C_6}{R_{ij}^6}\,n_i n_j \)</div>
     </div>
   </div>

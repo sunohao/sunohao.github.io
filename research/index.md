@@ -30,9 +30,8 @@ My research spans <strong>condensed-matter theory</strong> and <strong>quantum s
         <strong>Moiré and supermoiré graphene</strong>, with focus on <strong>magnetic Bloch states</strong>, <strong>Hofstadter physics</strong>, <strong>Brown–Zak oscillations</strong>, and <strong>multiscale commensurability</strong>.
       </p>
     </div>
-    <div class="research-figure-placeholder">
-      <span>Representative figure</span>
-      <small>Moiré / supermoiré physics</small>
+    <div class="research-figure">
+      <img src="/assets/research/research2.webp" alt="Representative figure for moire quantum materials">
     </div>
   </article>
 

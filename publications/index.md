@@ -71,3 +71,8 @@ permalink: /publications.html
   </article>
 
 </div>
+
+<p class="muted" style="margin-top:18px;">
+  For a complete publication list, see
+  <a href="https://scholar.google.com/citations?hl=en&user=YmrbkGIAAAAJ&view_op=list_works" target="_blank" rel="noreferrer">Google Scholar ↗</a>.
+</p>

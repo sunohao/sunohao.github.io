@@ -33,25 +33,21 @@ title: Home
 
   <div class="research-grid">
     <div class="card pad research-card research-primary">
-      <div class="research-kicker">CORE DIRECTION</div>
       <h3>Anomalous Transport</h3>
       <div class="direction-eq">\( \displaystyle \dot{\mathbf r}=\frac{1}{\hbar}\nabla_{\mathbf k}\varepsilon_n(\mathbf k)-\dot{\mathbf k}\times\mathbf\Omega_n(\mathbf k) \)</div>
     </div>
 
     <div class="card pad research-card research-primary">
-      <div class="research-kicker">CORE DIRECTION</div>
       <h3>Moiré Quantum Materials</h3>
       <div class="direction-eq">\( \displaystyle \frac{n}{n_0}=t\,\frac{\Phi}{\Phi_0}+s \)</div>
     </div>
 
     <div class="card pad research-card">
-      <div class="research-kicker">CONNECTING THEME</div>
       <h3>Quantum Geometry</h3>
       <div class="direction-eq">\( \displaystyle Q_{ij}=g_{ij}-\frac{i}{2}\Omega_{ij},\; g_{ij}=\operatorname{Re}Q_{ij},\; \Omega_{ij}=-2\operatorname{Im}Q_{ij} \)</div>
     </div>
 
     <div class="card pad research-card research-emerging">
-      <div class="research-kicker">EMERGING DIRECTION</div>
       <h3>Rydberg Blockade Model</h3>
       <div class="direction-eq">\( \displaystyle H=\sum_i\!\left(\frac{\Omega_i}{2}\sigma_i^x-\Delta_i n_i\right)+\sum_{i<j}\frac{C_6}{R_{ij}^6}\,n_i n_j \)</div>
     </div>

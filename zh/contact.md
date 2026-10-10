@@ -10,6 +10,11 @@ permalink: /zh/contact.html
   <div class="card pad">
     <div class="muted">邮箱</div>
     <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    <img
+      src="/assets/contact/longgang2.png"
+      alt="龙港全景"
+      style="display:block;width:100%;height:auto;margin-top:37px;border-radius:12px;border:1px solid var(--b);"
+    >
   </div>
   <div class="card pad">
     <div class="muted">单位</div>

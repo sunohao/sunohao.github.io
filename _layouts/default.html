@@ -242,6 +242,14 @@ code{background:#eef2ff;padding:2px 6px;border-radius:6px}
     white-space:nowrap;
     border-radius:10px;
   }
+  .header-actions{
+    width:100%;
+    margin:0;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+  }
+  .lang-toggle,
   .theme-toggle{
     width:100%;
     margin:0;
@@ -256,8 +264,23 @@ code{background:#eef2ff;padding:2px 6px;border-radius:6px}
   .pub-main{padding:18px}
 }
 
+.header-actions{display:flex;align-items:center;gap:8px;margin-left:6px}
+.lang-toggle{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:8px 11px;
+  border:1px solid var(--b);
+  border-radius:10px;
+  background:#fff;
+  color:#14203a;
+  text-decoration:none;
+  font:600 13px/1 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+  white-space:nowrap;
+}
+.lang-toggle:hover{background:#f5f7fb;opacity:1}
 .theme-toggle{
-  margin-left:6px;
+  margin-left:0;
   padding:8px 11px;
   border:1px solid var(--b);
   border-radius:10px;
@@ -290,6 +313,8 @@ html[data-theme="dark"] thead{background:#0f1b31}
 html[data-theme="dark"] pre{background:#0f1629;color:#e6edf3}
 html[data-theme="dark"] code{background:#0f1b31}
 html[data-theme="dark"] footer.site-footer{border-color:var(--b);color:#9aa4b2}
+html[data-theme="dark"] .lang-toggle{background:#0f1629;color:#e6edf3;border-color:var(--b)}
+html[data-theme="dark"] .lang-toggle:hover{background:#16213b}
 html[data-theme="dark"] .theme-toggle{background:#0f1629;color:#e6edf3;border-color:var(--b)}
 html[data-theme="dark"] .theme-toggle:hover{background:#16213b}
 
@@ -307,6 +332,7 @@ html[data-theme="light"] .nav a{color:#14203a}
 html[data-theme="light"] .card{background:#fff;border-color:var(--b)}
 html[data-theme="light"] .btn{background:#fff;color:#111}
 html[data-theme="light"] .btn.acc{background:var(--acc);color:#fff}
+html[data-theme="light"] .lang-toggle{background:#fff;color:#14203a;border-color:var(--b)}
 html[data-theme="light"] .theme-toggle{background:#fff;color:#14203a;border-color:var(--b)}
 html[data-theme="light"] .pub-side{background:#f5f7fb;border-color:var(--b)}
 html[data-theme="light"] .pub-side span{color:#14203a}
@@ -350,7 +376,14 @@ html[data-theme="light"] .pub-note{background:#1e3a8a;color:#fff}
       <a href="https://sunohao.github.io/links.html" class="{% if here contains "/links" %}active{% endif %}">Links</a>
       <a href="https://sunohao.github.io/contact.html" class="{% if here contains "/contact" %}active{% endif %}">Contact</a>
     </nav>
-    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle light and dark theme">Dark</button>
+    <div class="header-actions">
+      {% assign zh_url = "/zh/" %}
+      {% if here contains "/research" %}{% assign zh_url = "/zh/research.html" %}{% endif %}
+      {% if here contains "/cv" %}{% assign zh_url = "/zh/cv.html" %}{% endif %}
+      {% if here contains "/contact" %}{% assign zh_url = "/zh/contact.html" %}{% endif %}
+      <a class="lang-toggle" href="https://sunohao.github.io{{ zh_url }}" aria-label="切换到中文">中文</a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle light and dark theme">Dark</button>
+    </div>
   </div>
 </header>
 

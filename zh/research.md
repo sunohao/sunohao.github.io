@@ -72,7 +72,6 @@ permalink: /zh/research.html
   <ul style="margin:12px 0 0 20px;">
     <li><strong>线性响应、半经典理论与 Green 函数方法</strong>：用于量子输运与响应问题</li>
     <li><strong>紧束缚与连续模型</strong>：用于低维材料和莫尔体系</li>
-    <li><strong>Landau 能级与磁平移方法</strong>：用于 Hofstadter 与 Brown–Zak 物理</li>
     <li><strong>多体微扰与 Hartree–Fock 类方法</strong>：用于相互作用驱动的量子态</li>
     <li><strong>密度泛函与第一性原理计算</strong>：用于需要微观电子结构输入的问题</li>
     <li><strong>相对论耦合簇与 CI+MBPT</strong>：用于高精度原子结构和 Rydberg 物理</li>

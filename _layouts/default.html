@@ -379,6 +379,7 @@ html[data-theme="light"] .pub-note{background:#1e3a8a;color:#fff}
     <div class="header-actions">
       {% assign zh_url = "/zh/" %}
       {% if here contains "/research" %}{% assign zh_url = "/zh/research.html" %}{% endif %}
+      {% if here contains "/publications" %}{% assign zh_url = "/zh/publications.html" %}{% endif %}
       {% if here contains "/cv" %}{% assign zh_url = "/zh/cv.html" %}{% endif %}
       {% if here contains "/contact" %}{% assign zh_url = "/zh/contact.html" %}{% endif %}
       <a class="lang-toggle" href="https://sunohao.github.io{{ zh_url }}" aria-label="切换到中文">中文</a>

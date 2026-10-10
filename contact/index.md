@@ -12,7 +12,7 @@ permalink: /contact.html
     <img
       src="/assets/contact/longgang2.png"
       alt="Panoramic view of Longgang, Wenzhou"
-      style="display:block;width:100%;height:auto;margin-top:18px;border-radius:12px;border:1px solid var(--b);"
+      style="display:block;width:100%;height:auto;margin-top:37px;border-radius:12px;border:1px solid var(--b);"
     >
   </div>
   <div class="card pad">

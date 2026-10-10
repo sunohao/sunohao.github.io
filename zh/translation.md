@@ -7,7 +7,7 @@ permalink: /zh/translation.html
 <section class="page-intro">
   <div class="eyebrow">量子科技产业化</div>
   <p class="muted">
-    将量子材料与量子科学中的理论、计算和模型能力，进一步转化为可验证、可交付的研发能力与技术方案。
+    面向实际技术需求，将量子材料与量子科学中的理论、计算和模型方法应用于技术研发与成果转化。
   </p>
 </section>
 

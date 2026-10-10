@@ -52,7 +52,7 @@ permalink: /zh/cv.html
   <div class="section-head"><div><h2>工作经历</h2></div></div>
   <div class="card" style="overflow:hidden">
     <table><tbody>
-      <tr><td><strong>2026.09–至今</strong></td><td>北大—龙港先进量子科技联合实验室</td><td>高级研究科学家</td></tr>
+      <tr><td><strong>2026.09–至今</strong></td><td>北大—龙港高端量子科技联合实验室</td><td>高级研究科学家</td></tr>
       <tr><td><strong>2023.02–2026.08</strong></td><td>新加坡国立大学 I-FIM</td><td>高级研究员</td></tr>
       <tr><td><strong>2021.06–2023.02</strong></td><td>南洋理工大学 SPMS</td><td>研究员</td></tr>
       <tr><td><strong>2018.06–2021.06</strong></td><td>南洋理工大学 EEE</td><td>研究员</td></tr>

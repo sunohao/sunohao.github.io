@@ -13,6 +13,6 @@ permalink: /zh/contact.html
   </div>
   <div class="card pad">
     <div class="muted">单位</div>
-    <div>北大—龙港先进量子科技联合实验室</div>
+    <div>北大—龙港高端量子科技联合实验室</div>
   </div>
 </div>

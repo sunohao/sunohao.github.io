@@ -14,7 +14,7 @@ permalink: /zh/
     </p>
     <p class="cta-row">
       <a class="btn acc" href="https://sunohao.github.io/zh/research.html">研究</a>
-      <a class="btn" href="https://sunohao.github.io/publications.html">论文</a>
+      <a class="btn" href="https://sunohao.github.io/zh/publications.html">论文</a>
       <a class="btn" href="https://sunohao.github.io/zh/cv.html">简历</a>
     </p>
   </div>

@@ -71,7 +71,6 @@ My research spans <strong>condensed-matter theory</strong> and <strong>quantum s
   <ul style="margin:12px 0 0 20px;">
     <li><strong>Linear-response, semiclassical, and Green's-function methods</strong> for quantum transport and response</li>
     <li><strong>Tight-binding and continuum models</strong> for low-dimensional and moiré quantum materials</li>
-    <li><strong>Landau-level and magnetic-translation methods</strong> for Hofstadter and Brown–Zak physics</li>
     <li><strong>Many-body perturbation and Hartree–Fock-based approaches</strong> for interaction-driven phenomena</li>
     <li><strong>Density-functional and first-principles calculations</strong> where microscopic electronic structure is essential</li>
     <li><strong>Relativistic coupled-cluster and CI+MBPT methods</strong> for high-precision atomic structure and Rydberg physics</li>

@@ -10,7 +10,7 @@ permalink: /contact.html
     <div class="muted">Email</div>
     <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
     <img
-      src="/assets/contact/longgang2.png"
+      src="/assets/contact/longgang2.webp"
       alt="Panoramic view of Longgang, Wenzhou"
       style="display:block;width:100%;height:auto;margin-top:37px;border-radius:12px;border:1px solid var(--b);"
     >

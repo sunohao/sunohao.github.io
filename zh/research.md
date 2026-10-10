@@ -67,7 +67,7 @@ permalink: /zh/research.html
 <div class="card pad" style="margin-top:20px">
   <h2>研究方法</h2>
   <p class="muted">
-    我结合解析理论与数值模拟，根据具体物理问题和实验可观测量选择合适的方法，而不是以某一种计算框架为中心。
+    结合解析理论与数值模拟，根据具体物理问题和实验观测量选择合适的方法。
   </p>
   <ul style="margin:12px 0 0 20px;">
     <li><strong>线性响应、半经典理论与 Green 函数方法</strong>：用于量子输运与响应问题</li>

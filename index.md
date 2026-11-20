@@ -63,6 +63,7 @@ title: Home
   </div>
   <div class="card">
     <ul class="news">
+      <li><span>Our recent paper, <em>“Flat-band-induced integer doping and phase transition in monolayer graphene”</em>, was published in <strong>Nature</strong> on 18 November 2026. <a href="https://doi.org/10.1038/s41586-026-11254-4" target="_blank" rel="noreferrer">DOI</a></span><time>2026</time></li>
       <li><span>Our recent paper, <em>“Pseudomagnetic control of light waves in electrically tunable photonic crystals with deformation engineering”</em>, was published in <strong>Laser &amp; Photonics Reviews</strong> <strong>20</strong>(1), e01225.</span><time>2026</time></li>
       <li><span>Our paper, <em>“Orbital magnetic moment dynamics and Hanle magnetoresistance in multilayered two-dimensional materials”</em>, was published in <strong>Physical Review B</strong> <strong>111</strong>, L180408.</span><time>2025</time></li>
       <li><span>Our paper, <em>“Nonconserved density accumulations in orbital Hall transport”</em>, was published in <strong>Physical Review B</strong> <strong>111</strong>, 075432.</span><time>2025</time></li>

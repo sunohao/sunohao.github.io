@@ -13,6 +13,16 @@ permalink: /publications.html
   <article class="card pub-item">
     <div class="pub-side"><span>2026</span></div>
     <div class="pub-main">
+      <h3>Flat-band-induced integer doping and phase transition in monolayer graphene</h3>
+      <p class="pub-authors">Z. Wang, C. Moulsdale, X. Guo, J. Liu, Z. Qiu, I. Soltero, Z. Jiang, M. Holwill, J. Wu, <strong>Hao Sun</strong>, Z. Chai, A. J. H. Jones, M. Zhu, J. Yin, C. P. Y. Wong, T. Taniguchi, K. Watanabe, K. E. J. Goh, S. V. Morozov, A. Mishchenko, S. Ulstrup, L. Lin, A. H. MacDonald, G. Yu, M. I. Katsnelson, J. Lu, V. I. Fal’ko, A. K. Geim, P. Huang, C. R. Woods, and K. S. Novoselov</p>
+      <p class="pub-meta"><em>Nature</em> (2026). Published online 18 November 2026.</p>
+      <p class="pub-links"><a href="https://doi.org/10.1038/s41586-026-11254-4" target="_blank" rel="noreferrer">DOI ↗</a></p>
+    </div>
+  </article>
+
+  <article class="card pub-item">
+    <div class="pub-side"><span>2026</span></div>
+    <div class="pub-main">
       <h3>Pseudomagnetic control of light waves in the electrically tunable photonic crystals with deformation engineering</h3>
       <p class="pub-authors">Z. Qi, <strong>Hao Sun</strong>, G. Hu, X. Song, Y. Sun, W. Zhu, B. Liu, X. Yu, F. M. Peeters, and Y. Cui</p>
       <p class="pub-meta"><em>Laser &amp; Photonics Reviews</em> <strong>20</strong>(1), e01225 (2026). <span class="pub-note">Equal contribution</span></p>

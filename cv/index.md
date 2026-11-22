@@ -71,7 +71,6 @@ permalink: /cv.html
       <p class="muted">Research collaborations with:</p>
       <ul class="muted" style="margin-top:10px;">
         <li>Nanyang Technological University (NTU)</li>
-        <li>Peking University</li>
         <li>Southeast University</li>
         <li>Nanjing University of Information Science and Technology</li>
       </ul>

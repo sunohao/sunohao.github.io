@@ -91,9 +91,6 @@ main{padding:30px 0 64px}
 .btn.acc{border-color:transparent;background:var(--primary);color:#fff}
 .btn:hover{box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-1px)}
 .btn.acc:hover{background:var(--accent);color:#111}
-.hero .btn{background:var(--highlight);border-color:var(--highlight);color:#fff}
-.hero .btn.acc{background:var(--highlight);border-color:var(--highlight);color:#fff}
-.hero .btn:hover,.hero .btn.acc:hover{background:#b91036;border-color:#b91036;color:#fff}
 
 .section{margin-top:46px}
 .section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:16px}
@@ -372,35 +369,33 @@ html[data-theme="light"] .pub-note{background:rgba(239,124,0,.14);border-color:r
 
   
 
-/* Homepage CTA: NTU red outline by default, solid on hover */
-.hero .cta-row .btn,
-.hero .cta-row .btn.acc,
-html[data-theme="light"] .hero .cta-row .btn,
-html[data-theme="light"] .hero .cta-row .btn.acc,
-html[data-theme="dark"] .hero .cta-row .btn,
-html[data-theme="dark"] .hero .cta-row .btn.acc{
-  background-color:#fff !important;
+
+/* Dedicated homepage CTA: white + NTU-red border + black text; solid NTU red on hover */
+.hero .cta-row a.home-cta,
+html[data-theme="light"] .hero .cta-row a.home-cta{
+  background:#fff !important;
   border:1px solid var(--highlight) !important;
-  color:var(--highlight) !important;
+  color:#111 !important;
   box-shadow:0 1px 2px rgba(0,0,0,.04);
 }
-.hero .cta-row .btn:hover,
-.hero .cta-row .btn.acc:hover{
-  background-color:var(--highlight) !important;
+.hero .cta-row a.home-cta:hover,
+html[data-theme="light"] .hero .cta-row a.home-cta:hover{
+  background:var(--highlight) !important;
+  border-color:var(--highlight) !important;
+  color:#fff !important;
+  opacity:1 !important;
+}
+html[data-theme="dark"] .hero .cta-row a.home-cta{
+  background:#0f1629 !important;
+  border-color:var(--highlight) !important;
+  color:#e6edf3 !important;
+}
+html[data-theme="dark"] .hero .cta-row a.home-cta:hover{
+  background:var(--highlight) !important;
   border-color:var(--highlight) !important;
   color:#fff !important;
 }
-html[data-theme="dark"] .hero .cta-row .btn,
-html[data-theme="dark"] .hero .cta-row .btn.acc{
-  background-color:#0f1629 !important;
-  color:#ff5a7f !important;
-  border-color:var(--highlight) !important;
-}
-html[data-theme="dark"] .hero .cta-row .btn:hover,
-html[data-theme="dark"] .hero .cta-row .btn.acc:hover{
-  background-color:var(--highlight) !important;
-  color:#fff !important;
-}
+/* End dedicated homepage CTA */
 </style>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>

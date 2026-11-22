@@ -371,21 +371,34 @@ html[data-theme="light"] .pub-note{background:rgba(239,124,0,.14);border-color:r
 }
 
   
-/* Homepage CTA override: keep all three buttons NTU red */
+
+/* Homepage CTA: NTU red outline by default, solid on hover */
 .hero .cta-row .btn,
 .hero .cta-row .btn.acc,
 html[data-theme="light"] .hero .cta-row .btn,
 html[data-theme="light"] .hero .cta-row .btn.acc,
 html[data-theme="dark"] .hero .cta-row .btn,
 html[data-theme="dark"] .hero .cta-row .btn.acc{
+  background:#fff;
+  border:1px solid var(--highlight);
+  color:var(--highlight);
+  box-shadow:0 1px 2px rgba(0,0,0,.04);
+}
+.hero .cta-row .btn:hover,
+.hero .cta-row .btn.acc:hover{
   background:var(--highlight);
   border-color:var(--highlight);
   color:#fff;
 }
-.hero .cta-row .btn:hover,
-.hero .cta-row .btn.acc:hover{
-  background:#b91036;
-  border-color:#b91036;
+html[data-theme="dark"] .hero .cta-row .btn,
+html[data-theme="dark"] .hero .cta-row .btn.acc{
+  background:#0f1629;
+  color:#ff5a7f;
+  border-color:var(--highlight);
+}
+html[data-theme="dark"] .hero .cta-row .btn:hover,
+html[data-theme="dark"] .hero .cta-row .btn.acc:hover{
+  background:var(--highlight);
   color:#fff;
 }
 </style>

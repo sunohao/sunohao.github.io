@@ -63,11 +63,11 @@ title: Home
   </div>
   <div class="card">
     <ul class="news">
-      <li><span>Our recent paper, <em>“Flat-band-induced integer doping and phase transition in monolayer graphene”</em>, was published in <strong>Nature</strong> on 18 November 2026. <a href="https://doi.org/10.1038/s41586-026-11254-4" target="_blank" rel="noreferrer">DOI</a></span><time>2026</time></li>
-      <li><span>Our recent paper, <em>“Pseudomagnetic control of light waves in electrically tunable photonic crystals with deformation engineering”</em>, was published in <strong>Laser &amp; Photonics Reviews</strong> <strong>20</strong>(1), e01225.</span><time>2026</time></li>
-      <li><span>Our paper, <em>“Orbital magnetic moment dynamics and Hanle magnetoresistance in multilayered two-dimensional materials”</em>, was published in <strong>Physical Review B</strong> <strong>111</strong>, L180408.</span><time>2025</time></li>
-      <li><span>Our paper, <em>“Nonconserved density accumulations in orbital Hall transport”</em>, was published in <strong>Physical Review B</strong> <strong>111</strong>, 075432.</span><time>2025</time></li>
-      <li><span>Our paper, <em>“Nonconservation of valley density and implications for the valley Hall effect”</em>, was published in <strong>Physical Review Letters</strong> <strong>132</strong>, 106301.</span><time>2024</time></li>
+      <li><span>Our recent paper, <strong class="highlight-title">“Flat-band-induced integer doping and phase transition in monolayer graphene”</strong>, was published in <span class="highlight-journal">Nature</span> on 18 November 2026. <a href="https://doi.org/10.1038/s41586-026-11254-4" target="_blank" rel="noreferrer">DOI</a></span><time>2026</time></li>
+      <li><span>Our recent paper, <strong class="highlight-title">“Pseudomagnetic control of light waves in electrically tunable photonic crystals with deformation engineering”</strong>, was published in <span class="highlight-journal">Laser &amp; Photonics Reviews</span> <strong>20</strong>(1), e01225.</span><time>2026</time></li>
+      <li><span>Our paper, <strong class="highlight-title">“Orbital magnetic moment dynamics and Hanle magnetoresistance in multilayered two-dimensional materials”</strong>, was published in <span class="highlight-journal">Physical Review B</span> <strong>111</strong>, L180408.</span><time>2025</time></li>
+      <li><span>Our paper, <strong class="highlight-title">“Nonconserved density accumulations in orbital Hall transport”</strong>, was published in <span class="highlight-journal">Physical Review B</span> <strong>111</strong>, 075432.</span><time>2025</time></li>
+      <li><span>Our paper, <strong class="highlight-title">“Nonconservation of valley density and implications for the valley Hall effect”</strong>, was published in <span class="highlight-journal">Physical Review Letters</span> <strong>132</strong>, 106301.</span><time>2024</time></li>
     </ul>
   </div>
 </section>

@@ -54,8 +54,8 @@ permalink: /zh/translation.html
   font-size:12px;
   font-weight:700;
   line-height:1;
-  color:var(--acc);
-  background:rgba(141,26,17,.06);
+  color:#9a4d00;
+  background:rgba(239,124,0,.14);
 }
 .tech-card p{
   margin-top:10px;
@@ -64,8 +64,8 @@ permalink: /zh/translation.html
   .tech-grid{grid-template-columns:1fr}
 }
 html[data-theme="dark"] .tech-status{
-  background:rgba(141,26,17,.18);
-  color:#f2c8c2;
+  background:rgba(239,124,0,.16);
+  color:#ffb45c;
 }
 </style>
 

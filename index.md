@@ -11,9 +11,9 @@ title: Home
       I study generalized anomalous transport in quantum materials, with a focus on orbital physics, moiré systems, and quantum spins. Another central focus of my work is the translation and commercialization of quantum technologies.
     </p>
     <p class="cta-row">
-      <a class="btn acc" href="https://sunohao.github.io/research.html">Research</a>
-      <a class="btn" href="https://sunohao.github.io/publications.html">Publications</a>
-      <a class="btn" href="https://sunohao.github.io/cv.html">CV</a>
+      <a class="btn home-cta" href="https://sunohao.github.io/research.html">Research</a>
+      <a class="btn home-cta" href="https://sunohao.github.io/publications.html">Publications</a>
+      <a class="btn home-cta" href="https://sunohao.github.io/cv.html">CV</a>
     </p>
   </div>
 

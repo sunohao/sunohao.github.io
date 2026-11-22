@@ -370,7 +370,25 @@ html[data-theme="light"] .pub-note{background:rgba(239,124,0,.14);border-color:r
   footer.site-footer{border-color:var(--b);color:#9aa4b2}
 }
 
-  </style>
+  
+/* Homepage CTA override: keep all three buttons NTU red */
+.hero .cta-row .btn,
+.hero .cta-row .btn.acc,
+html[data-theme="light"] .hero .cta-row .btn,
+html[data-theme="light"] .hero .cta-row .btn.acc,
+html[data-theme="dark"] .hero .cta-row .btn,
+html[data-theme="dark"] .hero .cta-row .btn.acc{
+  background:var(--highlight);
+  border-color:var(--highlight);
+  color:#fff;
+}
+.hero .cta-row .btn:hover,
+.hero .cta-row .btn.acc:hover{
+  background:#b91036;
+  border-color:#b91036;
+  color:#fff;
+}
+</style>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
